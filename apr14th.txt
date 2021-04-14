@@ -1,0 +1,70 @@
+April 14th :
+
+
+Object Class :
+
+is the root class of all Java Classes
+
+so every class in Java directly or indireclty inherited by Object Class
+
+		Polymorphism :
+
+
+	compile time		runtime
+	static			Dynamic
+	Early Binding 		Late Binding
+	(Method Overloading)	(Method Oveririding)
+
+Binding =  linking --> linking called and caller method
+
+MEthod Overloading :
+
+methods having same method name doing different tasks in same class 
+
+sum(int,int)
+
+sum(double,double)
+
+sum(String,String)
+
+Method Overriding :
+_____________________
+
+Method Signature = method name + arguments 
+
+methods having same method name and also signature doing different taks in two different 
+classes having Inheritance
+
+4 combintaions
+
+P p=new P();
+
+C p=new C();
+
+P p=new C();
+
+C p=new P();
+
+---------------------------------------
+
+this : keyword cum operator 
+
+this is for Current calling Object reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

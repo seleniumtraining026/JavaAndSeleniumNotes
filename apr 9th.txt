@@ -1,0 +1,52 @@
+Constructor :
+
+
+Rules :
+
+1)should not have any return type
+if return type specified what happens ?
+nothing it won't be constructor , it will be normal method
+
+2)It shouldn't have any access modifier
+(static,abstarct..etc)
+what happens if we provide modifier ?
+
+compile error :
+
+Illegal modifier for the constructor in type Clock; 
+only public, protected & private are permitted
+
+3)Below access specifiers are allowed
+public, protected & private are allowed 
+
+public and protected are prefered.
+
+				Constructors
+
+	1)default construtor			2)parameterized
+		or
+	  non-paramterized
+
+
+
+Note : if we have paramterized construtors without default constructor 
+then we should use any one of the parameterized constructors only
+
+*******************Inheritance*****************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
