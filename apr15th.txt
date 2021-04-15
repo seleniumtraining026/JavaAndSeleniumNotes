@@ -1,0 +1,63 @@
+April 15th:
+
+super is a keyword
+
+refering the current class Parent properties(varibales,methods ,..)
+
+---------------------
+Abstraction :
+-----------------------
+
+abstract:
+
+highlighting  the ideas and hiding implementation details
+
+			Abstraction
+
+
+	1)Abstract Class		2)Interfaces
+					  (pure abstraction)
+
+	0-100%				100%
+
+
+Abstract Class :
+
+
+is same as normal class , it is having abstract keyword
+
+syntax:
+
+access-specifier abstract class ClassName
+{
+
+concrete methods; // methods having body or some definition
+
+abstarct methods; //methods having no body means no flower braces just end with semicolon
+
+}
+
+
+
+Note 1:
+
+We can't create object for Abstract class 
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Cannot instantiate the type Numbers
+
+	at apr15th.AbstractDemo1.main(AbstractDemo1.java:8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
