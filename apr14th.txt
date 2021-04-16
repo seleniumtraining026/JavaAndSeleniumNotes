@@ -10,10 +10,17 @@ so every class in Java directly or indireclty inherited by Object Class
 		Polymorphism :
 
 
-	compile time		runtime
+	compile time		runtime [will be discussed after Inheritance topic]
 	static			Dynamic
 	Early Binding 		Late Binding
 	(Method Overloading)	(Method Oveririding)
+
+		Method Overloading
+
+i)change in data types
+ii)variance in no of arguments
+iii)chnage in order of arguments (not encourged)
+		
 
 Binding =  linking --> linking called and caller method
 
