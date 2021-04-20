@@ -1,0 +1,29 @@
+April 20th :
+
+
+ChromeDriver cannot be resolved to a type
+
+because ChromeDriver class is not present in our Project
+
+To resolev this we should add Selenium Jars
+
+
+download selenium jar from below website 
+
+https://www.selenium.dev/downloads/
+
+Version of Selenium : 3.141.59
+
+https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
+
+https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/
+
+Assignment :
+
+
+To Laucnh Firfox browser 
+
+To Launch Edge BRowser
+
+To Launch IE browser
+

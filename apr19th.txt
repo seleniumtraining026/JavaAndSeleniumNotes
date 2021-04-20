@@ -1,0 +1,80 @@
+april 19th :
+
+
+abstract Class A
+
+2 concrete methods
+
+2 abstract Methods ==> ideas 
+
+
+Class B extends A 
+
+2 abstract method ==> let say 1 idea implementation you know 
+ but not sure of the second 
+
+1st idea imp
+2nd  idea can be imp by no definition  means open braces and close braces 
+____________________________________________________________________
+
+Interface :
+
+
+pure ideas or template of ideas 
+
+
+NCR  
+
+ATM Box Template 
+
+
+HDFC ATM Box cutomozies as per thier wish or requirement 
+
+ICICI ATM Box cutomozies as per thier wish or requirement 
+
+
+==> We can't create an object for Interface
+
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Cannot instantiate the type Atm
+
+	at apr19th.AtmDemo.main(AtmDemo.java:8)
+
+
+
+_____________________________________________
+
+Assignement 
+
+Create an Interface 
+
+Shape
+
+one field PI=3.14;
+
+two ideas  
+
+area
+
+volume 
+
+-----------------------------
+
+Class Circle 
+
+Class Traingle 
+
+Class Cuboid 
+
+------------------------------
+
+
+
+
+
+
+
+
+
+
