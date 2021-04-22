@@ -21,7 +21,7 @@ https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/
 Assignment :
 
 
-To Laucnh Firfox browser 
+To Laucnh Firefox browser 
 
 To Launch Edge BRowser
 

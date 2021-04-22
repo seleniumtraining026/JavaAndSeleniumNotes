@@ -1,0 +1,70 @@
+April 22nd
+
+MEthods in WebDriver (I) :
+
+
+13 ideas or methods :
+
+2 things in mind when we are learning about methods in Java 
+
+i)what are the arguments or parameters 
+ii)return type
+
+_______________________________________
+get(String):void 
+
+Here String is nothing but URL 
+
+https://www.amazon.in/
+
+
+This method is to launch URL or to hit a URL
+
+__________________________________________
+
+close():void
+
+this method will close only one window or tab of the browser
+where the webdriver focus is present
+
+one more diff :
+
+chromedriver.exe is not getting killed
+________________________________________________
+
+quit(): void 
+
+this method will closes all the tabs or windows
+opened during that session
+
+one more diff :
+
+chromedriver.exe is getting killed
+ 
+_________________________________________________
+
+getTitle():String
+
+It will return the Title of the page or tab
+
+used for validtaion purpose to check we have landed in expected page or not
+__________________________________________________
+
+getCurrentUrl():String
+
+It will return the URL in String format which is present in address bar
+____________________________________________________
+
+findElement(By)
+findElements(By)
+
+
+getPageSource()
+
+getWindowHandle()
+getWindowHandles()
+manage()
+navigate()
+
+switchTo()
+
