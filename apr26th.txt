@@ -1,0 +1,153 @@
+April 26th 
+
+WebDriver Methods (Cont ..)
+
+____________________________________________________
+getPageSource():String 
+
+retrive the HTML code of the current page 
+
+____________________________________________________
+
+getWindowHandle() : String 
+
+It will return or retrive the window ID of the tab or window on which webdriver focus is present 
+
+window Id : Webdriver will assign a unique window id (alpha numberic , aplha + hexa format)
+
+0-9 A-F
+
+CDwindow-AFE4EF6810D2DE50C1491858FEBD26AD
+
+getWindowHandles() : List<String>
+
+Get all window Ids of all Tabs or Windows opened during that session
+
+[CDwindow-7A447CDC1845FDF1FFE2A0AC7C053D76, 
+ CDwindow-9704128FB7A12FBA25B9CD655B7CB0DA, 
+ CDwindow-BD0F8DB52DF6206F69A972930C7355A1]
+
+
+This method will be used during our Imp Topic
+i.e Multiple Window Handling 
+
+_____________________________________________________________
+
+manage() : Options 
+
+This method is used to deal with 
+i)cookies (to add ,delete ,etc )
+ii) implicit wait , this is a waits concepts will be discissed in further class 
+iii) window related stuff like to maximize , set some positions
+
+window 
+
+fullscreen()
+getPosition()
+getSize()
+maximize()
+setPosition(Point)
+setSize(Dimension)
+
+____________________________________________________________
+
+navigate() : 
+
+
+this method is used to naviagte on browser controls 
+
+i.e back , forward , refrsh ...
+
+back()
+forward()
+refresh()
+to(String)
+to(URL)
+
+_______________________________________________________________
+
+switchTo():
+
+Is used to switch the control from a tab/window to other tab/window
+
+or alert or frames 
+
+
+activeElement()
+alert()  : alert handling 
+
+Frame handling :
+
+defaultContent()
+frame(int)
+frame(String)
+frame(WebElement)
+parentFrame()
+
+Multiple Window  Hanlding :
+
+window(String)
+_________________________________________________________________
+
+findElement(By): WebElement
+
+to find webelement or element or anything that exists on a  web page 
+
+
+By is class which has 8 methods or locators or Loctaor strategies 
+
+which are used to uniquely find the element on web page 
+
+
+home in Kukatpally 
+
+9-68-108/A
+
+
+Near Gandhi statue , the immediate house next to 
+
+
+By Class : 
+
+The below methods or locator strategies are returning object of By class only 
+
+
+Attribute based Locator strategies :
+
+id(String)
+name(String)
+className(String)
+
+Based on text on Element :
+
+linkText(String)
+partialLinkText(String)
+
+
+Based on tagName : [ this will be used if you want to find more than one element ]
+
+tagName(String)
+
+BAsed on combination of all strategies i.e tagname, attributes , text etc ...
+
+xpath(String)
+cssSelector(String)
+
+
+
+<input type="text" name="username" id="username" class="login_input" value="">
+<a href="Register.php">New User Register Here</a>
+HTML Terminology :
+
+<tagname attribute1="value of attribute1"  attribute2="value of attribute2" > text on element </tagname>
+
+
+_________________________________________________
+findElements(By)
+
+
+
+
+
+
+
