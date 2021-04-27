@@ -92,7 +92,7 @@ _________________________________________________________________
 findElement(By): WebElement
 
 to find webelement or element or anything that exists on a  web page 
-
+z 
 
 By is class which has 8 methods or locators or Loctaor strategies 
 
@@ -135,15 +135,21 @@ cssSelector(String)
 
 
 
-<input type="text" name="username" id="username" class="login_input" value="">
-<a href="Register.php">New User Register Here</a>
+
 HTML Terminology :
 
 <tagname attribute1="value of attribute1"  attribute2="value of attribute2" > text on element </tagname>
 
+<input type="text" name="username" id="username" class="login_input" value="">
 
+<a href="Register.php">New User Register Here</a>
 _________________________________________________
-findElements(By)
+
+findElements(By):List<WebElement>  
+
+to find a group of WebElements in a page
+
+
 
 
 

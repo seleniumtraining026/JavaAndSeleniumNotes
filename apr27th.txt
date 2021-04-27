@@ -1,0 +1,91 @@
+April 27th 
+
+
+WebElement (I)
+
+16 methods 
+
+org.openqa.selenium 
+
+
+
+_________________________________________________________________
+click():void
+
+to click anything(button , img , link etc ) on a web page 
+
+driver.findElement(By).click();
+_________________________________________________________________
+sendKeys(CharSequence...) :void
+
+is used to type some text on anyelement(textbox , dropdwon etc ) on webpage 
+
+driver.findElement(By).sendKeys(String);
+________________________________________________________________
+clear():void
+
+is used to clear already or any existing text 
+
+driver.findElement(By).clear();
+
+_________________________________________________________________
+***
+getText():String
+
+is used to get the text value or text present on any webelement
+
+
+String textOnWebElement=driver.findElement(By).getText();
+_________________________________________________________________
+**
+getAttribute(String):String
+
+is used to get attribute value of any elemnet on web page
+
+_________________________________________________________________
+getLocation():Point
+
+to get x and y coordinates of left most corner of any element on page 
+
+System.out.println("X coordinate value is "+driver.findElement(By.id("username")).getLocation().x);
+
+_________________________________________________________________
+getRect():Rectangle
+
+is used to get x,y coordinates and also height and width of any element on page
+
+System.out.println("Height is "+driver.findElement(By.id("username")).getRect().height);
+_________________________________________________________________
+
+getSize():Dimension
+
+is used to get height and width of any element on page
+
+System.out.println("Height is "+driver.findElement(By.id("username")).getSize().height);
+
+_________________________________________________________________
+
+getCssValue(String): 
+
+
+is used to retrieve the css values like color , font , font-family etc ..
+
+System.out.println(driver.findElement(By.className("build_title")).getCssValue("color"));
+System.out.println(driver.findElement(By.className("build_title")).getCssValue("font-family"));
+		
+
+_________________________________________________________________
+
+
+
+findElement(By)
+findElements(By)
+
+
+getTagName()
+isDisplayed()
+isEnabled()
+isSelected()
+
+submit()
+
