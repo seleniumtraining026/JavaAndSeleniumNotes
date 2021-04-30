@@ -1,0 +1,126 @@
+April 30th
+
+On May 1st we will have class from 9AM to 10AM
+
+Links Testing : 
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+
+<a href="Register.php">New User Register Here</a>
+
+<a href="../HotelAppBuild2"><strong>Go to Build 2 </strong></a>
+
+<a href="http://www.adactin.com">Adactin.com</a>
+
+Common thing for Links is : 
+
+tagname is "a"
+
+
+Test Scenario :
+________________
+
+In http://adactinhotelapp.com/  
+
+validate the link "New User Register Here"
+
+Title of home Page Adactin.com - Hotel Reservation System
+http://adactinhotelapp.com/Register.php
+Title of Page After Clicking the Link Adactin.com - New User Registration
+http://adactinhotelapp.com/Register.php
+
+
+
+
+**************************************
+Assignment :
+
+In https://www.limeroad.com/
+
+validate the link "Have an account? Log in"
+
+**************************************
+
+to find all or some or few webelements(links , img ,etc ) 
+
+which method ?
+
+
+findElements(By):List<WebElement>
+
+
+
+___________________________________________________________
+			Collections in Java
+
+
+discuss Arrays :
+
+
+Arrays :
+
+is way of storage to store homogenous datatype with same name
+
+syntax :
+
+way1:
+_____
+
+Datatype[] arrayName={values};
+
+int[] a={10,20,30,40,55,64,11,10,34,22};
+
+how to retriever elements from array ?
+
+by using indexes
+
+for e.g a[0] == > which reteirves first element in "a" array
+
+
+same as variable syntax :
+
+datatype variableName=value;
+
+int x=10;
+
+
+way2:
+______
+
+
+Syntax :
+
+
+datatype[] arrayName=new datatype[no of items];
+
+
+ArrayIndexOutOfBoundsException:
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 
+Index 5 out of bounds for length 5
+	at apr30th.ArraysDisAdvantagesDeno.main(ArraysDisAdvantagesDeno.java:34)
+
+compilation problem:
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from double to int
+
+	at apr30th.ArraysDisAdvantagesDeno.main(ArraysDisAdvantagesDeno.java:36)
+
+
+Disadvantages of arrays :
+
+
+1. Arrays size is constant , not growable in nature
+
+2. arrays can only store homogenous(same or similar) DataTypes
+
+3. predefined methods are not available
+
+To Overcome all these dis advantages we should go with Collection concepts
+
+
+
+
+
+

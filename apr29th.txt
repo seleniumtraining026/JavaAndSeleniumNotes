@@ -1,0 +1,49 @@
+April 29th
+
+
+WebElement Methods (cont ..)
+
+
+
+________________________________________________
+
+getTagName(): String 
+
+is used to get tagname of any element present in webpage
+
+
+_________________________________________________
+
+isDisplayed():boolean
+
+is used to validate element is diplayed/visible in Page 
+
+System.out.println(driver.findElement(By.linkText("How we help")).isDisplayed());
+
+________________________________________________________
+
+isEnabled():boolean
+
+is used to check element is Enabled or not 
+
+________________________________________________________
+isSelected(): boolean
+
+is used to check a item selected from dropdown or not 
+______________________________________________________
+
+findElement(By) : WebElement
+
+_______________________________________________________
+
+findElements(By) : List<WebElement>
+_______________________________________________________
+
+submit():void --Now-a-days this method is not used 
+
+this is used to submit your request directly to server
+
+
+
+
+
