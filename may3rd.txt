@@ -1,0 +1,131 @@
+May3rd 
+
+Disadvantages of arrays :
+
+
+1. Arrays size is constant , not growable in nature
+
+2. arrays can only store homogenous(same or similar) DataTypes
+
+3. predefined methods are not available
+
+To Overcome all these dis advantages we should go with Collection concepts
+
+
+collections in Java : java.util package
+
+
+				collection(I)
+
+
+	List(I)			Queue(I)		Set(I)
+	
+	ArrayList(C)					
+	LinkedList(C)
+	Vector(C)
+	Stack(C)
+	
+
+ArrayList(C):
+
+
+
+used to store data (variables or Objects ) using indexing 
+
+
+
+int a[]=new int[5];
+
+a[0]
+
+
+ArrayList al=new ArrayList(); 
+
+here default capacity will be 10
+
+new Capacity=3/2(Current Capacity)+1
+
+new Capacity=3/2(10)+1=16
+
+-------------------
+To retreive value 
+
+al.get(index);
+
+
+-------------------
+
+to add value or element  to collection 
+
+
+al.add(value or element or Object);
+
+---------------------
+
+to get size/length of ArrayList or any collection
+
+al.size(); 
+
+*** it gives the size only not capacity
+
+
+____________________________________________________
+
+enhanced for loop
+
+instead of using index , you can iterate through all the element by
+using for each loop or enchanced for loop
+
+
+for(int i=0;i<al.size();i++)
+		{
+			
+			System.out.println(al.get(i));
+		}
+
+Syntax :
+
+
+for(Datatype someTempVariableName : collectionVaribale)
+	{
+ 		System.out.println(someTempVariableName);
+	}
+
+_______________________________________________________________________
+
+findElement(By):WebElement
+findElements(By):List<WebElement>
+
+
+""
+
+null
+
+Assignment :
+
+in https://www.bankofamerica.com/ , 
+
+find how many links are there ?
+
+how many visible links ?
+
+how many invisible or hidden links ?
+
+hint : use String method isEmpty() : boolean 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
