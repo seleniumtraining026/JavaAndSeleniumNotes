@@ -6,7 +6,7 @@ Chorme browser : 89
 
 ChromeDriver version : 
 
-
+___________________________________________________________________________________________
 IllegalStateException:
 
 
@@ -17,3 +17,55 @@ for more information, see
 https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
 The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+
+Reason : driver executable for chrome browser is not present 
+
+Solution : we have to download the chromedriver.exe from above website 
+
+and add it to the projects (2 ways )
+
+1. Add directly the chromedriver.exe to project 
+or
+2. use 
+
+System.setProperty("webdriver.chrome.driver", "D:\\Kosmik\\kosmik9ambatchh\\chromedriver.exe");
+		
+
+_______________________________________________________________________________________________
+
+ElementClickInterceptedException:
+
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: 
+Element <a href="https://www.aboutamazon.in/?utm_source=gateway&amp;utm_medium=footer" class="nav_a">...</a> is not clickable at point (215, 506). 
+Other element would receive the click: <div class="rhf-border">...</div>
+  (Session info: chrome=90.0.4430.93)
+
+Reason : Other element would receive the click
+
+Solution : Click our element by using JavaScriptExecutor
+
+JavascriptExecutor js=(JavascriptExecutor) driver;
+			
+js.executeScript("arguments[0].click();", allLinks.get(i));
+
+_____________________________________________________________________________________________
+
+StaleElementReferenceException :
+
+
+Exception in thread "main" org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.93)
+
+Reason : DOM structure has been changed 
+
+DOM is Document Object Model which is used to define the html structure 
+
+
+Solution :
+
+we should recreate the elements or list of elements
+
+_________________________________________________________________________________________
+
