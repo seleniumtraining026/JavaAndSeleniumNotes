@@ -1,0 +1,82 @@
+May5th :
+
+
+DropDown Testing :
+
+html strategy :
+
+Dropdown : Select as tagname
+
+items in dropdown: Option as tagname
+
+2 ways 
+
+1.conventional way [using SendKeys]
+
+Assignment:
+
+In https://www.facebook.com/
+
+click "Create New Account" 
+
+Select your date of birth  [3 dropdowns ]
+
+
+
+2.Using Select Class from Selenium API (jar)
+
+present in org.openqa.selenium.support.ui package
+
+To select some option or item in dropdown we can use any of the below methods 
+
+selectByIndex(int) --> here index is the count from zero(0) .. we should count ==>this is not prefered
+selectByValue(String) --> value is an attribute for option
+selectByVisibleText(String) --> text means between > and < ==> most prefered 
+
+deselectAll()
+deselectByIndex(int)
+deselectByValue(String)
+deselectByVisibleText(String)
+
+Assignment :
+
+In https://www.facebook.com/
+
+click "Create New Account" 
+
+Select your date of birth  using Select class [for all 3 dropdowns ]
+
+_________________________________________________________________
+Miscelleneous Actions :
+
+can be performed using method of 
+
+Actions Class (org.openqa.selenium.interactions)
+
+how to create object of Actions ?
+
+using new :
+
+Actions(Keyboard) ==> getting depcreciated
+Actions(Keyboard, Mouse) ==> getting depcreciated
+Actions(WebDriver)
+
+Mouse Hover == > moveToElement(WebElement) 
+
+perform() == > to be included at the end to accomplish the actions
+
+Assignment :
+
+
+in https://www.stepchange.org/ 
+
+mousehover on "Contact Us"
+
+then click "Start debt advice"
+
+
+
+
+
+
+
