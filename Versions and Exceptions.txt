@@ -68,4 +68,37 @@ Solution :
 we should recreate the elements or list of elements
 
 _________________________________________________________________________________________
+NoSuchElementException:
+
+Exception in thread "main" org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: 
+{"method":"xpath","selector":"//*[@id="u_0_2_Qx"]"}
+  (Session info: chrome=90.0.4430.93)
+
+
+Reason 1: if your loactor startegy is dynamic in nature 
+
+Solution 1 : Make sure you follow proper locator strategy which should be constant
+
+
+Exception in thread "main" org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#day"}
+  (Session info: chrome=90.0.4430.93)
+
+Reason 2 : May be because of Synchronization issue , page is getting loaded very slowly
+
+Solution 2: we should introduce proper wait  [thread.sleep or implicit wait or explicit wait]
+
+
+Exception in thread "main" org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#draggable"}
+  (Session info: chrome=90.0.4430.93)
+
+Reason 3: If element is present in a frame or iframe
+
+Soultion 3: switch to that frame or iframe
+
+driver.switchTo().frame(0); == > this topic will be discussed seperately in 
+ multiple frames handling 
+______________________________________________________________________________
+
 

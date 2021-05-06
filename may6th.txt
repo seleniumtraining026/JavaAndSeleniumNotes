@@ -1,0 +1,50 @@
+May 6th:
+
+Dropdown Testing (Continuation ..) :
+
+how to get all items or options in a dropdown ?
+
+using common locator strategy which in this case is 
+
+tagname "option" same for all items in dropdown
+
+
+
+___________________________________________________
+
+Miscelleneous Actions :
+
+Mousehover (Cont ..) 
+
+chain of mousehover 
+
+Assignment :
+
+
+https://www.icicibank.com/
+
+Mousehover on "Loans"
+
+Then mousehover on "Agri and Rural Finance"
+
+Then click on "Tractor Loan" 
+
+hint : use moveToElement() method twice and the add build() .perform()
+
+
+_______________________________________
+
+Drag and Drop :
+
+https://jqueryui.com/droppable/
+
+
+Actions Class (org.openqa.selenium.interactions)
+
+dragAndDrop(WebElement, WebElement) == > this is most prefered 
+dragAndDropBy(WebElement, int, int) == > mostly used in mobile applications
+
+
+
+
+ 
