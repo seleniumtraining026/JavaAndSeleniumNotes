@@ -1,0 +1,85 @@
+May7th :
+
+Miscelleneous Actions (Cont ..) :
+
+Actions Class (org.openqa.selenium.interactions)
+
+
+contextClick()  ==> RIGHT click on page 
+contextClick(WebElement) ==> RIGHT click on a particular element
+
+
+doubleClick() ==> DOUBLE click on Page
+doubleClick(WebElement) ==> DOUBLE click on particular element
+
+
+------------------------------------------------------------------------
+				Framework (Inbuilt + User Defined)
+
+Framework is a construtive blend of various 
+Guidelines ,
+Coding Standards,
+Concepts,
+Processes,
+Practices,
+Project hiererchies,
+modularity,
+reporting mechanism,
+test data injections etc ..to pillar Automation
+
+				Framework Types
+
+	i)Inbuilt / Unit Testing		ii) User defined
+	(based on Lang used)			 (based on project requirement
+				 		  and complxity)
+
+
+
+i)Inbuilt (based on Lang used)
+
+Java 	-- Junit / TestNG
+
+C#	-- Nunit
+
+Python 	-- PyTest / UnitTest
+
+
+
+Junit / TestNG :
+
+
+Junit : is good Unit Testing Framework but mostly used by developers 
+
+
+TestNG : is an excellant framework for Testers 
+
+TesTNG was developed by inspiration from Junit and Nunit 
+
+
+how to Install TestNG ?
+
+In Eclipse :
+
+help -- > Eclipse Market Place
+
+and Search for TestNG 
+
+if you face problem in Eclipse Market place use below method 
+
+Method 2:
+
+https://testng.org/doc/download.html
+
+Install from update site
+Select Help / Install New Software...
+Enter the update site URL in "Work with:" field:
+Update site for release: https://dl.bintray.com/testng-team/testng-eclipse-release/.
+Make sure the check box next to URL is checked and click Next.
+Eclipse will then guide you through the process.
+
+TestNG	https://dl.bintray.com/testng-team/testng-eclipse-release/	Enabled
+
+
+
+
+		
