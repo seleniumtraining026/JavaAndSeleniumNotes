@@ -1,0 +1,116 @@
+May10th
+
+TestNG Installation :
+
+Use Eclipse 2020-12 version since Eclipse 2021-03 version is having issue in TestNG
+installation 
+
+how to check TestNG is installed or not ?
+
+In Eclipse  , go to Window tool bar
+	      go to show view -- > click other ..
+	      then expand Java folder 
+              if you see TestNG in that folder 
+	      that means TestNG is Installed 
+
+_______________________________________________________
+
+TestCase : LoginTest
+
+Step1: Open Browser
+Step2: Launch Application
+Step3: Validate Login
+Step4: Close the Browser
+---------------------------
+TestCase : RegisterTest
+
+Step1: Open Browser
+Step2: Launch Application
+Step3: Validate Registration
+Step4: Close the Browser
+----------------------------
+
+TestCase : ChangePasswordTest
+
+Step1: Open Browser
+Step2: Launch Application
+Step3: Validate chnage password
+Step4: Close the Browser
+
+
+-----------------------------
+
+
+In TestNG 
+
+Annotations
+
+syntax :
+
+@someAnnotationName
+Method
+
+
+@Test == it your test case 
+@BeforeMethod == will be executed before each and every @Test annotate method
+@AfterMethod == will be executed after each and every @Test annotate method
+
+
+
+if you have more than 1 test case (@Test annotations)
+the order by which TestNG is executed is in Aplhabetic Order of MEthod names 
+
+if you want to chnage the order of execution 
+you can use priority paramter for @Test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
