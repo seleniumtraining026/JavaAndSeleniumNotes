@@ -1,0 +1,91 @@
+May 11th :
+
+Xpath Writing Techniques :
+
+Xpath stands for XML path
+
+HTML is an implementation of XML 
+
+XPath is q query lang to find XML nodes
+
+In real time ,we mostly use Xpath as Locator Strategy
+
+<img src="images/home.gif" width="118" height="23" border="0">
+
+cssSelector or xpath
+
+
+2 Types of Xpath
+	i)Absolute xpath (which starts from root node means html)
+	  This is not prefered in real time
+
+	//html/body/table[2]/tbody/tr/td/table[2]/tbody/tr/td[1]/a/img
+	//html/body/table[2]/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/a/img
+ 		
+	2)Relative Xpath (which starts from near by node )
+
+	/html/body/table[2]/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/a/img
+
+
+//*[@id="password"]
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[3]/td[2]/input
+
+
+Writing Xpath :
+
+
+html terminology
+
+
+<tagname attribute1='value of att1' attribute2='value of att2' >text on element</tagname>
+
+
+1) //tagname[@attribute='value of attribute']
+
+//img[@width='118']
+
+
+2) //tagname[text()='text on element']
+
+<a href="Register.php">New User Register Here</a>
+
+//a[text()='New User Register Here']
+
+
+______________________________________________________________________
+
+Multiple Window Handling 
+
+________________________________________________________________________
+
+Window can be tab also
+
+
+Prerequiste :
+
+1)HashSet
+
+2)Excpetion Handling 
+
+
+				collection(I)
+	
+		List(I)			Queue(I)		Set(I)
+	
+	i)ArrayList(C)						i)HashSet(C)
+	ii)LinkedList(C)					ii)
+	iii)Vector(C)
+	iv)Stack(C)
+
+
+
+HashSet(C) : java.util.
+
+i)Elements are not stored in order 
+  they are stored using some Hashing Technique
+ii)used when you don't want to allow duplicates
+
+
+
+
