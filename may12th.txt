@@ -1,0 +1,78 @@
+May12th
+
+
+
+				collection(I)
+	
+		List(I)			Queue(I)		Set(I)
+	
+	i)ArrayList(C)						i)HashSet(C)
+	ii)LinkedList(C)					ii)
+	iii)Vector(C)
+	iv)Stack(C)
+
+
+
+HashSet(C) : java.util.
+
+i)Elements are not stored in order 
+  they are stored using some Hashing Technique
+ii)used when you don't want to allow duplicates
+
+
+HashSet hs=new HashSet();
+
+________________________________________________
+
+Exception Handling :
+
+
+
+
+Exception means Runtime Error
+when Exception Occurs program terminates without executing the rest of code
+
+
+Exception in thread "main" java.lang.ArithmeticException: 
+/ by zero
+	at may12th.ExceptionDemo1.main(ExceptionDemo1.java:12)
+
+
+To Overcome this Exception , we should handle it
+
+In Java , We can use Exception Handling by using
+
+try catch mechanishm
+
+try  - block where you put the code which is Risky
+
+try
+{
+
+Risky Code
+
+}
+catch(someException someObjName)
+{
+
+some UserFrinedly Code
+}
+finally
+{
+
+some default code to executed
+}
+
+valid combination of try ,catch mechanism
+
+try 	catch
+try 	catch	finally
+try	finally
+try	catch	catch
+try	catch	catch	finally
+
+
+
+
+
+
