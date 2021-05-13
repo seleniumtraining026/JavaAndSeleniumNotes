@@ -53,6 +53,13 @@ html terminology
 //a[text()='New User Register Here']
 
 
+3)//tagname[contains(@attribute,'subset of value of attribute')]
+
+<img src="img/google-play.png">
+
+//img[contains(@src,'google-play')]
+
+
 ______________________________________________________________________
 
 Multiple Window Handling 

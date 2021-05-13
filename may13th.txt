@@ -1,0 +1,76 @@
+May 13th 
+
+
+how to retrieve items from HashSet ?
+
+1) for each loop
+
+2) Iterator (is a class in java.util)
+
+how to create an Object ?
+
+
+Iterator itertaorObjectName = collectionClassObjectName.iterator();
+
+
+ArrayList<Integer> al=new ArrayList<Integer>();
+Iterator it= al.iterator();
+
+Non-Static Factory Method :
+
+ClassName1 object1=new ClassName1();
+
+ClassName2 object2=object1.method();
+
+
+Set<String> hs=new HashSet<String>();
+Iterator<String> it= al.iterator();		
+
+Iterator has 2 methods :
+
+i)hasNext():boolean
+
+ii)next():Data Type Element
+	-> It retrieve the item from collection
+	-> It moves the iterator to next level
+
+
+while loop same as for loop
+
+for(intial index value ; check condition ; increment or decrement the index value)
+{
+
+body or logic
+
+}
+
+while(condition check returns true or false)
+{
+body or logic ;
+
+increment or decrement some value which is used for condition check;
+
+}
+
+
+while(it.hasNext())
+{
+
+
+
+}
+
+
+Adactin Hotel App - Apps on Google Play
+Adactin Hotel App – Apps on Google Play
+
+
+
+
+
+
+
+
+
+
+		
