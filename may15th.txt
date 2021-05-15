@@ -1,0 +1,46 @@
+May15th Saturday
+
+Multiple Frames Handling 
+
+		WebPage
+
+		|
+
+button	text	links dropdown 	frame/iframe 
+
+
+			frame/iframe 
+
+				|
+button	text	links	dropdown	frame/iframe
+
+
+frame tagname (older html technology <html3)
+
+iframe tagname (>html4)
+
+defaultContent() ==> this method will make switch to page from any frame
+parentFrame()
+
+
+frame(int) == we should provide index , which is not prefered
+frame(String) == if you have name attribute for frame , we can use this
+frame(WebElement)
+
+The
+International I Hate Frames Club
+
+Assignment:
+
+https://www.selenium.dev/selenium/docs/api/java/overview-summary.html
+
+
+click "Frames" button
+
+and then in "packages frame" , find all the links and print them 
+
+
+
+
+
+

@@ -101,4 +101,21 @@ driver.switchTo().frame(0); == > this topic will be discussed seperately in
  multiple frames handling 
 ______________________________________________________________________________
 
+NoSuchFrameException
 
+
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id main
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LE78F7L', ip: '192.168.43.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown
+
+
+
+Reason: It iss trying to find a frame inside frame which is not present
+
+Solution:
+
+use defaultContent() ==> this method will make switch to page from any frame
+
+
+___________________________________________________________________________________
