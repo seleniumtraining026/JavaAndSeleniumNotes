@@ -1,0 +1,66 @@
+May 17th :
+
+Alert Handling :
+
+Alert is a window pop up which will freeze the screen 
+and expects action on it .
+
+3 types of alert :
+
+1)Simple == only one button in alert 
+
+2)Confirmation == > two buttons [e.g Ok and Cancel]
+
+3)Prompt ==>  which have some textbox in alert and some button
+
+
+
+org.openqa.selenium 
+Alert(I)
+To get Instatcne or Reference Object for alert 
+
+Alert al=driver.switchTo.alert();
+
+accept() ==> click Ok or Yes button 
+dismiss() ==> click Cancel Button
+getText() ==>This will return a string (text present on alert)
+sendKeys(String) ==> to enter some value in alert's textbox (Prompt alert)
+
+//*[@id="s4gfvupfv3"]/div/div[1]/div[1]/a ==> not prefered
+
+
+//span[text()="'How old are you?'"]/preceding::div[1]/preceding-sibling::div/child::a
+
+
+//span[text()="'How old are you?'"]/preceding::div[1]/preceding-sibling::div/descendant::a
+
+
+//span[text()="'How old are you?'"]/ancestor::div[1]/preceding-sibling::div/descendant::a
+
+
+Asiignment:
+
+
+https://demo.guru99.com/v4/
+
+User id:mngr327108
+
+pwd: ApysetU
+
+click login 
+
+
+delete custimer ==> enter cust id
+
+you will get an alert , click cancel
+
+
+
+
+
+
+
+
+
+
+
