@@ -1,0 +1,82 @@
+May 19th :
+
+Dis ads of Explicit Wait :
+
+i) Time Unit change can't be done since time is always in seconds 
+ii) Polling time is 500ms , there is no way to change
+iii) Exception handling should be done explicitly
+
+
+Fluent Wait :
+
+	
+FluentWait<WebDriver> myWait=
+		 new FluentWait<WebDriver>(driver)
+		.withTimeout(Duration.ofSeconds(30))
+		.pollingEvery(Duration.ofMillis(100))
+		.ignoring(NoSuchElementException.class);
+
+______________________________________________________________________
+
+			WebTable 
+
+2 types of WebTbale 
+
+i)Static WebTable (always rows and cols are constant)
+ii)Dynamic WebTable (rows and cols are not constant)
+
+          html tagname
+
+Table 		table
+
+Rows		tr
+
+Columns		td
+
+
+/html/body/div[6]/section[1]/div/section/div[1]/div/table/tbody/tr[1]/td[1]/a
+/html/body/div[6]/section[1]/div/section/div[1]/div/table/tbody/tr[2]/td[1]/a
+/html/body/div[6]/section[1]/div/section/div[1]/div/table/tbody/tr[36]/td[1]/a
+
+
+//table/tbody/tr[1]/td[1]/a
+//table/tbody/tr[36]/td[1]/a
+
+
+String part1="//table/tbody/tr[";
+
+String part2="]/td[1]/a";
+
+________________________________________
+//table/tbody/tr[1]/td[7]
+
+
+String part1="//table/tbody/tr[";
+
+String part2="]/td[";
+
+String part3="]";
+
+
+//table[@class='zebra fw tb-theme']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -119,3 +119,16 @@ use defaultContent() ==> this method will make switch to page from any frame
 
 
 ___________________________________________________________________________________
+
+FAILED: waitsDemo1Test
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.212)
+
+
+Reason : element is present in DOM but in hidden state 
+
+
+Solution: we should introduce proper wait  
+[thread.sleep or implicit wait or explicit wait]
+
+

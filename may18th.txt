@@ -1,0 +1,68 @@
+May 18th:
+
+Waits or Synchronization :
+
+our script or selenium script will be very fast (500 ms will be frequency of execution)
+
+Web app UI can be slow because of different reasons
+
+i) server dealy
+ii) Network delay
+
+
+FAILED: waitsDemo1Test
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.212)
+
+
+Types of Waits :
+
+i)Hard Wait (Java Concept )
+
+Thread.sleep ==> not prefered 
+
+waitsDemo1Test  (12.421 s)
+
+ii)Implicit Wait 
+
+manage() in WebDriver
+
+
+syntax : driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+from the next step after defining the implicit wait 
+
+WebDriver will be waiting for 30 seconds (driver.findElement/s statements)
+
+if it finds element before 30 seconds (let say it finds at 2 seconds)
+then it won't waste the remaining 28 seconds 
+
+waitsDemo1Test  (7.321 s)
+
+-_________________________________________________________________
+
+iii)Explicit Wait
+
+WebDriverWait
+WebDriverWait(WebDriver, Clock, Sleeper, long, long)
+
+
+WebDriverWait(WebDriver, long) ==> most prefered here long value will be always seconds
+WebDriverWait myWait=new WebDriverWait(driver, 30);
+
+WebDriverWait(WebDriver, long, long)
+
+ExpectedConditions
+
+myWait.until(ExpectedConditons)
+
+
+
+
+
+
+
+
+
+
+
