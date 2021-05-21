@@ -1,0 +1,86 @@
+May21st
+
+
+Excel Read and Write 
+
+
+File Reading and Writing 
+
+
+			Excel
+
+
+	.xls			.xlsx
+
+	<2003			>=2007
+
+
+	JXL jars 		POI Jars
+	or
+	POI Jars	
+
+Apache -- POI jars
+
+
+
+			Excel
+
+
+		.xls			.xlsx
+
+
+Workbook	HSSFWorkbook		XSSFWorkbook
+
+Sheet		HSSFSheet		XSSFSheet
+
+Row		HSSFRow			XSSFRow
+
+Cell		HSSFCell		XSSFCell
+
+
+
+java.io
+
+
+FileInputStream  fis=new FileInputStream(path of file);
+
+XSSFWorkbook wb=new XSSFWorkbook(fis);
+
+XSSFSheet ws=wb.getSheet("Sheet1");
+
+
+ws.getLastRowNum() ==> gives index of last Row (row index starts from 0)
+
+ws.getPhysicalNumberOfRows() ==> no of rows in sheet
+
+getCellValue() ==> there is no such generic to get value of cell
+
+.getStringCellValue() 
+.getBooleanCellValue()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
