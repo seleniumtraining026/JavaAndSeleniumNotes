@@ -6,6 +6,11 @@ Chorme browser : 89
 
 ChromeDriver version : 
 
+
+Maven Version : 3.8.1
+
+
+
 ___________________________________________________________________________________________
 IllegalStateException:
 
