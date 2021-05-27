@@ -1,0 +1,51 @@
+May 26th
+
+Page Object Model 
+:is pattern not a framework
+
+is a pattern applied for hybrid / bdd / any framework
+
+
+is also called Object Repository Model
+
+what is Object/Objects here ?
+
+your webelement means anything that is in a webPage
+
+Page means a java class which hold or store all webelements in that page/screen
+
+
+in Page only Webelements ? no it also have the methods that can be applied on weblements
+
+
+Page Object model Using Page Factory
+
+some annotations
+
+@FindBy
+
+
+
+
+****************************************
+
+how to take screenshot
+
+
+by using getScreenshotAs(OutputType<X>) in TakesScreenshot.class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

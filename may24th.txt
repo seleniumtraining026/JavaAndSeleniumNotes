@@ -1,0 +1,23 @@
+May24th
+
+Keyword Driven Framework 
+
+Properties Files having extension .properties
+
+key value pairs
+
+
+environment variables 
+
+which browser ?
+
+chrome or firefox
+
+environment ? dev / qa / uat
+
+The driver executable does not exist: 
+D:\Batches\kosmikbatch9am\FrameworkAutomation\drivers\geckodriver.exe
+	
+
+
+

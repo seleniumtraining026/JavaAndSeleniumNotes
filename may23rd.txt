@@ -1,0 +1,16 @@
+May23rd
+
+
+Data Driven Framework(cont..)
+
+Data from Excel
+
+Data Parameterization using Data Provider
+
+
+@DataProvider
+public Object[][] getData()
+{
+//code to set data to that Object array
+
+}
