@@ -137,3 +137,13 @@ Solution: we should introduce proper wait
 [thread.sleep or implicit wait or explicit wait]
 
 
+_____________________________________________________________________________________
+
+SessionNotCreatedException :
+
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.77 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+
+
